@@ -1,0 +1,7 @@
+>
+<input #inputbox [style.flex-grow]="cmdInput.length == 0 ? 0 : 1" (keyup.enter)="executeCommand(cmdInput)" [(ngModel)]="cmdInput" autofocus>
+<div>
+  <a href="javascript:void(0)" class="cmdhint" *ngIf="cmdInput.length == 0" (click)="executeCommand('home')">home</a>
+  <a href="javascript:void(0)" class="cmdhint" *ngIf="cmdInput.length == 0" (click)="executeCommand('about')">about</a>
+  <a href="javascript:void(0)" class="cmdhint" *ngIf="cmdInput.length == 0" (click)="executeCommand('projects')">projects</a>
+</div>

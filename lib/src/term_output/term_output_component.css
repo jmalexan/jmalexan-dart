@@ -1,0 +1,8 @@
+div {
+  padding-left: 1em;
+  padding-right: 1em;
+  height: auto;
+  border-bottom-color: #222222;
+  border-bottom-style: solid;
+  border-width: 1px;
+}

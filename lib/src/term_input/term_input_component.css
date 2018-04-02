@@ -1,0 +1,28 @@
+input {
+  margin-left: 0.5em;
+  flex-grow: 1;
+  width: 1px;
+  height: 100%;
+  background-color: #111111;
+  border-style: none;
+  font-size: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.cmdhint {
+  text-decoration: none;
+  color: #444444;
+  font-size: 75%;
+  padding: 0.25em;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: #444444;
+}
+
+div {
+  padding-left: 0.5em;
+}
